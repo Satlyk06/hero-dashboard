@@ -1,16 +1,32 @@
-# React + Vite
+# HeroDash - Admin Dashboard
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+🔗 **Live Demo:** [https://hero-dashboard-six.vercel.app](https://hero-dashboard-six.vercel.app)
 
-Currently, two official plugins are available:
+A modern, fully-featured admin dashboard built with React, Redux, Tailwind CSS, and Recharts.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Features
+- 📊 Interactive revenue charts with Recharts
+- 📦 Order management with filtering & search
+- 👥 Customer profiles with stats
+- 🛍️ Product catalog with inventory
+- ⚙️ Settings page with toggles
+- 📱 Fully responsive design
+- 🌙 Dark theme UI
 
-## React Compiler
+## Tech Stack
+- React 19 + Vite
+- Redux Toolkit (state management)
+- Tailwind CSS (styling)
+- React Router (navigation)
+- Recharts (charts)
+- Lucide React (icons)
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Screenshots
+![Dashboard](https://hero-dashboard-six.vercel.app)
 
-## Expanding the Oxlint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+## Run Locally
+```bash
+git clone https://github.com/Satlyk06/hero-dashboard.git
+cd hero-dashboard
+npm install
+npm run dev
